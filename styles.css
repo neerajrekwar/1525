@@ -70,7 +70,7 @@ font-size: small;
     .profile-ctr .col-1 {
       display: flex;
       justify-content: flex-start;
-      border: 2px solid green;
+      border: none;
       background-color: salmon;
       border-radius: 25px 10px 10px 10px;
       
