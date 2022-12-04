@@ -9,7 +9,7 @@
   margin: 0 auto;
   padding: 2px;
   background: tan;
-  
+
 }
 .profile-ctr {
   margin: 0 auto;
@@ -24,23 +24,22 @@
 .profile-ctr .col-1 {
   display: flex;
   padding: 2px;
-  justify-content: flex-start;
   text-align: center;
   color: #353535;
   border: 2px solid #fff;
-
+  
 }
 .profile-ctr .col-2 {
   background-color: rgb(77, 165, 165);
 }
 .profile-ctr .col-3 {
   background-color: #555;
-  
 }
-.col-1 div {
-  margin: 0;
-  padding: 0;
-
+.profile-ctr .col-1 ul {
+  justify-self: left;
+}
+.profile-ctr .col-1 ul li {
+  justify-content: flex-end;
 }
 .col-1 h2,
 p {
@@ -72,6 +71,11 @@ font-size: small;
       background: #ffffff3a;
       border: 2px solid rgba(95, 91, 91, 0.322);
       padding: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: unsafe center;
+      margin: 1rem 0;
+  font-size: 3rem;
     }
     
   img {
