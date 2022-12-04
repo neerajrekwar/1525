@@ -22,21 +22,16 @@
   font-size: 1.6rem;
 }
 .profile-ctr .col-1 {
-  /* background-color: salmon; */
   display: flex;
   padding: 2px;
   justify-content: flex-start;
+  text-align: center;
+  color: #353535;
+  border: 2px solid #fff;
 
 }
-.profile-ctr .col-1 {
-  display: flex;
-  justify-content: flex-start;
-  border: none;
-  color: #353535;
-  background-color: aqua; 
-}
 .profile-ctr .col-2 {
-  background-color: rgb(15, 19, 19);
+  background-color: rgb(77, 165, 165);
 }
 .profile-ctr .col-3 {
   background-color: #555;
@@ -60,7 +55,9 @@ font-style: italic;
 text-align: center;
 font-size: small;
 }
-
+.fa-brands, .fa-github {
+  opacity: 0.5;
+}
 @media (max-width: 500px) {
     
     body{
