@@ -4,94 +4,50 @@
   font-size: 16px;
   color: #fff;
 }
+body {
+  text-align: center;
+  font-size: 1.5rem;
+  background: rgb(81, 101, 107);
+}
 .container {
-  display: flex;
+  font-size: 1.5rem;
+  background-color: #353535;
   margin: 0 auto;
-  padding: 2px;
-  background: tan;
-
+  max-width: 444px;
 }
 .profile-ctr {
+  justify-self: center;
+  align-items: center;
+  display: inline;
   margin: 0 auto;
-  max-width: 440px;
-  max-height: 440px, auto;
-  background: #353535;
-  justify-content: space-between;
-  padding: 5px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
+  max-width: 400px;
 }
 .profile-ctr .col-1 {
-  display: flex;
-  padding: 2px;
-  text-align: center;
-  color: #353535;
   border: 2px solid #fff;
-  
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.profile-ctr .col-2 {
-  background-color: rgb(77, 165, 165);
+
+.col-1,
+.col-2
+.col-3 {
+  background-color: aqua;
+  margin: 2px;
+  border: 2px solid rgb(161, 17, 17);
 }
-.profile-ctr .col-3 {
-  background-color: #555;
-}
-.profile-ctr .col-1 ul {
-  justify-self: left;
-}
-.profile-ctr .col-1 ul li {
-  justify-content: flex-end;
-}
-.col-1 h2,
-p {
- color: black;
-}
+
 img {
-  height: auto;
-  width: 20%;
-}
-#full-size-h, #h {
-color: #555;
-font-style: italic;
-text-align: center;
-font-size: small;
-}
-.fa-brands, .fa-github {
-  opacity: 0.5;
+  height: 30%;
+  width: auto;
+  margin: 5px;
+  padding: 1px;
+  border: 3px solid #353535;
+  border-radius: 50%;
 }
 @media (max-width: 500px) {
-    
-    body{
-      background-color: #555;
-      margin: 0 10px auto;
-    }
-
-    .profile-ctr {
-      margin: 0 auto;
-      max-width: 440px;
-      background: #ffffff3a;
-      border: 2px solid rgba(95, 91, 91, 0.322);
-      padding: 2px;
-      display: flex;
-      flex-direction: column;
-      align-items: unsafe center;
-      margin: 1rem 0;
-  font-size: 3rem;
-    }
-    
-  img {
-    width: 50px;
-    height: 100%;
-    padding: 1vh;
-    border-radius: 25px;
-    border: none;
-  }  
-p {
-  border: ;
-}
-  #full-size-h {
-    color: rgba(6, 238, 238, 0.308);
-    font-size: small;
-    font-style: italic;
-
+  body {
+    background-color: #353535;
   }
-} 
+}
