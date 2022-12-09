@@ -24,12 +24,28 @@ body {
 }
 .profile-ctr .col-1 {
   border: 2px solid #fff;
-  background-color: black;
+  background-color: rgb(161, 112, 112);
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-
+.profile-ctr .col-2 {
+  border: 2px solid #fff;
+  background-color: rgb(161, 112, 112);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center {
+  background-color: #353535;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+}
+.space-evenly { 
+  justify-content: space-evenly; 
+}
 .col-1,
 .col-2
 .col-3 {
