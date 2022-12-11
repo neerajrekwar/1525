@@ -9,6 +9,7 @@ body {
   background: #353535;
 }
 #full-size-h {
+  font-size: 10px;
   text-align: right;
   background: #ffed66;
 }
