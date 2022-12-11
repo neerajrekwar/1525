@@ -24,6 +24,7 @@ body {
   border: 2px solid #a6d64c;
   border-radius: 50vh;
   height: 20vw;
+  margin-top: 5px;
 }
 
 .col-1 {}
