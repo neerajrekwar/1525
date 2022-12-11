@@ -1,69 +1,33 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  box-sizing:border-box;
   font-size: 16px;
-  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
 }
 body {
-  text-align: center;
-  font-size: 1.5rem;
-  background: rgb(81, 101, 107);
+  background: #252323;
 }
-.container {
-  font-size: 1.5rem;
-  background-color: #353535;
-  margin: 0 auto;
-  max-width: 444px;
-}
-.profile-ctr {
-  justify-self: center;
-  align-items: center;
-  display: inline;
-  margin: 0 auto;
-  max-width: 400px;
-}
-.profile-ctr .col-1 {
-  border: 2px solid #fff;
-  background-color: rgb(161, 112, 112);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.profile-ctr .col-2 {
-  border: 2px solid #fff;
-  background-color: rgb(161, 112, 112);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.center {
-  background-color: #353535;
-  text-align: center;
-  padding: 5px;
-  border-radius: 15px;
-  justify-content: space-evenly;
-}
-.space-evenly { 
-  justify-content: space-evenly; 
-}
-.col-1,
-.col-2
-.col-3 {
-  background-color: aqua;
-  margin: 2px;
-  border: 2px solid rgb(161, 17, 17);
+#full-size-h {
+  background: #ffed66;
 }
 
-img {
-  height: 30%;
-  width: auto;
-  margin: 5px;
-  padding: 1px;
-  border: 3px solid #353535;
-  border-radius: 50%;
+.container {
+  margin: 0 auto;
+  max-width: 444px;
+  background: #ff5e5b;
 }
-@media (max-width: 500px) {
-  body {
-    background-color: #353535;
-  }
+
+.profile-ctr {
+  text-align: center;
 }
+
+.profile-ctr img {
+  border: 2px solid #a6d64c;
+  border-radius: 50vh;
+  height: 20vw;
+}
+
+.col-1 {}
+
+.col-2 {}
+
+.col-3 {}
