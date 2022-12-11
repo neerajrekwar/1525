@@ -15,7 +15,8 @@ body {
 .container {
   margin: 0 auto;
   max-width: 444px;
-  background: #ff5e5b;
+  color: #fff;
+  /* background: #ff5e5b; */
 }
 
 .profile-ctr {
