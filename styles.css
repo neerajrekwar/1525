@@ -7,24 +7,8 @@
   padding: 0;
 }
 
-body {margin: 0 auto;
-  max-width: 444px;
-  display: grid;
-  gap: 5px;
-  background: #fff;
-}
-.container {
+body {
   
-}
-.sub_containerA {
-  background: tomato;
-  height: 44px;
-}
-.sub_containerB {
-  background: rgb(160, 64, 47);
-  height: 44px;
-}
-.sub_containerC {
-  background: rgb(122, 78, 71);
-  height: 44px;
+  background-color: #3E92CC;
+  margin: 0 auto;
 }
