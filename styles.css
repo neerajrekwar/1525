@@ -20,23 +20,8 @@ body {
   height: 350px;
   margin: 0 auto;
   /* background: #06d6a0; */
-  display: grid;
 }
-.pro{
-  margin: 0 auto;
-  /* background: red; */
-  width: 80%;
-  display: grid;
-  justify-items: center; 
-  text-align: center;
-}
-.pro, h1 {
-  font-weight: 600;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 22px;
-  text-align: center;
-} 
+
 .Sub_containerA{
   margin: 0 auto; 
   text-align: center;
@@ -52,7 +37,31 @@ img {
   height: 150px; 
   max-width: 150px;
 }
-
+.pro{
+  margin: 0 auto;
+  /* background: red; */
+  width: 80%;
+  display: grid;
+  justify-content: center; 
+  align-content: center;
+  /* text-align: center; */
+}
+.pro, h1 {
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+} 
+.pro-bio, h2{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-size: .9rem;
+  color: #504d47;
+  font-weight: 200;
+  max-width: 50%;
+}
 .ohter-links ul {
   margin: 15px;
   padding: 0;
@@ -64,17 +73,6 @@ img {
 }
 .ohter-links ul a i {
   width: 32px;
-}
-
-
-.pro-bio{
-  width: 50;
-}
-.pro-bio, h2{
-  font-size: .9rem;
-  color: #504d47;
-  font-weight: 200;
-  max-width: 50%;
 }
 
 .Sub_containerB{
