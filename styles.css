@@ -10,8 +10,8 @@ body {
   /* background-color: #3E92CC; */
 }
 #full-size-h {
-  color: rgb(61, 138, 125);
-  font-size: 10px;
+  color: rgb(255, 2, 2);
+  font-size: 20px;
   text-align: right;
   margin-right: 20px;
 }
@@ -46,22 +46,32 @@ img {
   align-content: center;
   text-align: center;
 }
-.pro, h1 {
+.pro h1 {
   font-weight: 600;
   margin-top: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   font-size: 22px;
   text-align: center;
 
 } 
-.pro-bio, h2{
+/* .pro-bio,  h2{
   display: grid;
   justify-items: center;
   align-content: center;
   font-size: .9em;
   color: #2b2926;
   font-weight: 300;
-  max-width: 70%;
+  max-width: 50%;
+  text-align: center;
+} */
+h2{
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  font-size: .9em;
+  color: #2b2926;
+  font-weight: 300;
+  max-width: 40%;
   text-align: center;
 }
 .ohter-links ul {
@@ -100,6 +110,9 @@ img {
   .Sub_containerC {
     width: 100%;
   }
+  .pro-bio h2 {
+    max-width: 70%;
+  }
 }
 @media (min-width: 300px) {
   .Sub_containerA{
@@ -108,5 +121,8 @@ img {
   }
   .pro-bio {
     max-width: 100%;
+  }
+  .pro-bio h2 {
+    max-width: 50%;
   }
 }
