@@ -116,3 +116,18 @@ h2{
     max-width: 100%;
   }
 }
+@media (max-width: 200px) {
+  .Sub_containerA{
+    font-size: .6rem;
+    width: 100%;
+    /* background: #ffd166; */
+  }
+  .pro-bio {
+    max-width: 100%;
+  }
+  h2 {
+    font-size: .6rem;
+    width: 70%;
+    max-width: 100%;
+  }
+}
