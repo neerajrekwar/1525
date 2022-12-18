@@ -55,17 +55,18 @@ h1 {
 
 } 
 h2{
+  margin-bottom: 25px;
   display: grid;
   justify-items: center;
   align-content: center;
   font-size: .9em;
   color: #2b2926;
   font-weight: 300;
-  max-width: 40%;
+  max-width: 50%;
   text-align: center;
 }
 .ohter-links ul {
-  margin: 15px;
+  margin: 25px;
   padding: 0;
 }
 .ohter-links ul a {
@@ -112,7 +113,7 @@ h2{
   .pro-bio {
     max-width: 100%;
   }
-  .pro-bio h2 {
-    max-width: 50%;
+  h2 {
+    max-width: 70%;
   }
 }
