@@ -9,6 +9,12 @@ body {
   margin: 0 auto;
   /* background-color: #3E92CC; */
 }
+#full-size-h {
+  color: rgb(61, 138, 125);
+  font-size: 10px;
+  text-align: right;
+  margin-right: 20px;
+}
 
 .container {
   height: 350px;
