@@ -47,9 +47,16 @@ img {
   width: 50px;
 }
 .ohter-links ul a i {}
+
 .pro-bio{
-  font-size: .6rem;
+  
 }
+.pro-bio, h2{
+  font-size: .6rem;
+  color: #504d47;
+  font-weight: 200;
+}
+
 .Sub_containerB{
   margin: 0 auto; 
   text-align: center;
