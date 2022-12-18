@@ -38,7 +38,7 @@ body {
 .Sub_containerA{
   margin: 0 auto; 
   text-align: center;
-  width: 95%;
+  width: 100%;
   /* background: #ffd166; */
 }
 
@@ -78,14 +78,14 @@ img {
 .Sub_containerB{
   margin: 0 auto; 
   text-align: center;
-  width: 95%;
+  width: 100%;
   background: #cac4b7;
   
 }
 .Sub_containerC{
   margin: 0 auto; 
   text-align: center;
-  width: 95%;
+  width: 100%;
   background: #504d47;
 }
 .ohter-links {
@@ -97,5 +97,14 @@ img {
   .Sub_containerB,
   .Sub_containerC {
     width: 100%;
+  }
+}
+@media (min-width: 300px) {
+  .Sub_containerA{
+    width: 100%;
+    /* background: #ffd166; */
+  }
+  .pro-bio {
+    max-width: 100%;
   }
 }
