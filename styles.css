@@ -100,7 +100,7 @@ h2{
   }
   h2 {
     width: 80%;
-    max-width: 90%;
+    max-width: 60%;
   }
 }
 @media (max-width: 300px) {
