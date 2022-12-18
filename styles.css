@@ -46,10 +46,9 @@ img {
   border-radius: 50%;
   width: 50px;
 }
-.ohter-links ul a i {
-  border-radius: 50%;
-  width: 25px;
-  height: 1;
+.ohter-links ul a i {}
+.pro-bio{
+  font-size: .6rem;
 }
 .Sub_containerB{
   margin: 0 auto; 
