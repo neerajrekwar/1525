@@ -29,6 +29,12 @@ body {
   display: grid;
   justify-items: center;  
 }
+.pro, h1 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+} 
 .Sub_containerA{
   margin: 0 auto; 
   text-align: center;
@@ -44,6 +50,7 @@ img {
   height: 150px; 
   max-width: 150px;
 }
+
 .ohter-links ul {
   margin: 15px;
   padding: 0;
@@ -53,7 +60,10 @@ img {
   border-radius: 50%;
   width: 50px;
 }
-.ohter-links ul a i {}
+.ohter-links ul a i {
+  width: 32px;
+}
+
 
 .pro-bio{
   width: 50;
