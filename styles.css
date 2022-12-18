@@ -10,8 +10,8 @@ body {
   /* background-color: #3E92CC; */
 }
 #full-size-h {
-  color: rgb(255, 2, 2);
-  font-size: 20px;
+  color: rgb(2, 114, 77);
+  font-size: 10px;
   text-align: right;
   margin-right: 20px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 img {
-  margin-top: 10px;
+  margin-top: 25px;
   text-align: center;
   border-radius: 50%;
   width: 150px;
@@ -46,7 +46,7 @@ img {
   align-content: center;
   text-align: center;
 }
-.pro h1 {
+h1 {
   font-weight: 600;
   margin-top: 16px;
   margin-bottom: 25px;
@@ -54,16 +54,6 @@ img {
   text-align: center;
 
 } 
-/* .pro-bio,  h2{
-  display: grid;
-  justify-items: center;
-  align-content: center;
-  font-size: .9em;
-  color: #2b2926;
-  font-weight: 300;
-  max-width: 50%;
-  text-align: center;
-} */
 h2{
   display: grid;
   justify-items: center;
