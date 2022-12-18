@@ -18,7 +18,7 @@ body {
 .pro{
   margin: 0 auto;
   background: red;
-  width: 222px;
+  width: 80%;
   display: grid;
   justify-items: center;  
 }
@@ -27,7 +27,6 @@ body {
   text-align: center;
   width: 95%;
   background: #ffd166;
-  
 }
 
 img {
@@ -37,6 +36,20 @@ img {
   width: 150px;
   height: 150px; 
   max-width: 150px;
+}
+.ohter-links ul {
+  margin: 15px;
+  padding: 0;
+}
+.ohter-links ul a {
+  /* border: 2px solid green; */
+  border-radius: 50%;
+  width: 50px;
+}
+.ohter-links ul a i {
+  border-radius: 50%;
+  width: 25px;
+  height: 1;
 }
 .Sub_containerB{
   margin: 0 auto; 
@@ -50,5 +63,15 @@ img {
   text-align: center;
   width: 95%;
   background: #504d47;
-  
+}
+.ohter-links {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 500px) {
+  .Sub_containerA,
+  .Sub_containerB,
+  .Sub_containerC {
+    width: 100%;
+  }
 }
