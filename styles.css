@@ -5,28 +5,50 @@
 }
 
 body {
+  margin: 0 auto;
   background-color: #3E92CC;
 }
 
 .container {
-  display: flex;
-  border: 2px solid;
+  height: 350px;
+  margin: 0 auto;
   background: #06d6a0;
+  display: grid;
 }
 .pro{
   margin: 0 auto;
   background: red;
   width: 222px;
+  display: grid;
+  justify-items: center;  
 }
 .Sub_containerA{
+  margin: 0 auto; 
   text-align: center;
-  width: 300px;
+  width: 95%;
   background: #ffd166;
+  
 }
+
 img {
+  margin-top: 10px;
   text-align: center;
   border-radius: 50%;
   width: 150px;
   height: 150px; 
+  max-width: 150px;
 }
-
+.Sub_containerB{
+  margin: 0 auto; 
+  text-align: center;
+  width: 95%;
+  background: #cac4b7;
+  
+}
+.Sub_containerC{
+  margin: 0 auto; 
+  text-align: center;
+  width: 95%;
+  background: #504d47;
+  
+}
