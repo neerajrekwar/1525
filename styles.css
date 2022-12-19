@@ -40,7 +40,6 @@ img {
 }
 .pro{
   margin: 0 auto;
-  padding-top: 50px;
   /* background: red; */
   width: 80%;
   display: grid;
@@ -128,6 +127,8 @@ button:active .button_top {
   width: 100%;
   background: #504d47;
 }
+
+/* Here are Starting Media Query */
 @media (max-width: 500px) {
   .Sub_containerA,
   .Sub_containerB,
@@ -148,7 +149,7 @@ button:active .button_top {
     max-width: 100%;
   }
   h2 {
-  
+    font-size: .6rem;
     width: 70%;
     max-width: 100%;
   }
