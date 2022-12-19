@@ -40,12 +40,16 @@ img {
 }
 .pro{
   margin: 0 auto;
+  padding-top: 2em;
   /* background: red; */
   width: 80%;
-  display: grid;
-  justify-items: center; 
-  align-content: center;
   text-align: center;
+}
+.pro-bio {
+  background-color: rgb(36, 172, 172);
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 h1 {
   font-weight: 600;
@@ -78,6 +82,7 @@ h2{
   color: #2b2926;
   margin-top: 25px;
   margin-bottom: 25px;
+  padding-top: 22px;
 }
 button {
   /* Variables */
